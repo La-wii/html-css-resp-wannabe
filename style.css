@@ -87,6 +87,7 @@ img {
 
   .row{
     margin-top: 0;
+    width: 100%;
   }
 
   #lezioni .row>.left,
