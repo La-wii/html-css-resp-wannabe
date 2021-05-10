@@ -84,13 +84,26 @@ img {
   padding-bottom: 30px;
   }
 
+  #steps.container{
+    background-color: white;
+    width: 100%;
+  }
+
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
   float: none;
   display: block;
   width: 100%;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  padding-bottom: 30px;
+  background-color: white;
+  margin-top: 0;
+  }
+
+  #why.container .row{
+    background-color: #f2f2cd;
+    padding-top: 30px;
   }
 
   #why .row>.first,
@@ -98,7 +111,8 @@ img {
   #why .row>.third {
   width: 100%;
   background-color: #f2f2cd;
-  margin-top: -10px;
+  /* margin-top: -10px; */
+  margin-top: 0;
   padding: 30px 0;
 
   }
